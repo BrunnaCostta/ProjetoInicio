@@ -1,4 +1,7 @@
-
+*{
+    margin:0;
+    padding:0;
+}
 
 .topo {
    background-color: #03045e;
@@ -8,13 +11,13 @@
     background-position: center;
     background-size: cover;
 }
+
 .titulo{
     color: #fff;;
     font-family: "robotolight";
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     justify-content: center;
-    
 }
 
 #frase__home{
@@ -30,21 +33,25 @@
     color:#eb5e28;
     text-align: center;
 }
+
 .apresentacao{
     font-family: "robotolight";
     font-size: 20px;
     color:#03045e
- 
 }
 
 .menu{
     width:100%;
     background-color:#03045e;
     height: 30px;
-    text-align: center;
     padding: 10px;
-    position: fixed;
+    position: relative;
+    text-align: center;
+   
+        color:white;
+         
 }
+
 
 ul{
     padding: 0;
@@ -59,36 +66,33 @@ ul li{
 
 /*Abaixo Css da page trilhas*/
 .container{
-    width: 30%;
-    padding: 40px;
+    width: 100%;
+    padding: 10px;
     border-radius: 30px;
-    display: inline-block;
-    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.quadro{
+    width: 40%;
+    padding:10px;
+    order: -1;
+}
+
+.texto__trilhas{
+   padding:10px;
 }
 
 .imagens__trilha{
     border-radius: 30px;
-    width:300px;
-    height: 300px;
-    margin: 20%;
-  
-    
-}
-
-.botao_saiba{
-    background-color: #03045e;
-    border-bottom: 1px solid #fff;
-    color:#fff;
-    padding: 5px;
-    border-radius: 30px;
-    text-decoration:underline;
-   
-   
-    
+    width:400px;
+    height:350px;
 }
 
 .titulo__imagens{
     color:#03045e;
-    
-    
+    justify-content: center;
+    padding: 5px;
+    text-align: center;
 }
