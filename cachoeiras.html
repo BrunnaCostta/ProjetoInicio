@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cachoeiras</title>
-    <link rel="stylesheet" href="style.css">
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Conhecendo o Rio</title>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+        <title>Bootstrap Example</title>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+      </head>
 <body>
     <header class="topo">  
    
@@ -13,117 +17,133 @@
     </header>
  
     <div class="menu">
-        <ul id="menu__itens">
-          <li><a href="index.html">Home</li></a>
-          <li><a href="trilhas.html">Trilhas</li></a>
-          <li><a href="cachoeiras.html">Cachoeiras</li></a>
-          <li><a href="aventuras.html">Aventuras</li></a>
-          <li></li>
-
+        <ul>
+          <li  class="itens-menu"><a href="index.html" >Home</a></li>
+          <li  class="itens-menu"><a href="trilhas.html">Trilhas</a></li>
+          <li  class="itens-menu"><a href="cachoeiras.html">Cachoeiras</a></li>
+          <li  class="itens-menu"><a href="aventuras.html">Aventuras</a></li>
         </ul>
-      </div>
-      <h1 class="frase__apresentacao"> Bem vindo ao Conhecendo o Rio </h1><br>
+    </div>
+    <br>
+    <h1 class="frase__apresentacao"> Bem vindo ao Rio de Janeiro </h1>
+
+
       <div class="container">
-        <div class="quadro" style="order:1;">
-        <h3 class="titulo__imagens">Cachoeira da Concórdia</h3><br>
-        <img class="imagens__trilha" src="images/02 - concordia.jpg" alt="Cachoeira da Concórdia">
-   
-        <p class="texto__trilhas"> Cachoeira da Concórdia, localizada em Guapimirim, é um verdadeiro refúgio natural. A trilha até a cachoeira é moderadamente fácil, 
-            percorrendo cerca de 1,5 km (ida e volta) por uma mata preservada da Mata Atlântica.
-            Ao chegar, os visitantes encontram uma queda d'água majestosa, ideal para banho e relaxamento em meio à natureza. A atmosfera tranquila e a beleza natural da Cachoeira da Concórdia a tornam um destino popular para quem busca escapar do ritmo urbano e renovar as energias em um cenário deslumbrante..</p>
+        
+        <div class="quadro col-md-6" style="order:1;">
+            <h3 class="titulo__imagens col-md-12"><span>Cachoeira da Concórdia</span></h3><br>
+            <div class="img"><img class="imagens__trilha col-md-11" src="images/02 - concordia.jpg" alt="Cachoeira da Concórdia"></div>
+            
+            <div class="title col-md-12">
+                <p class="texto__trilhas">Cachoeira da Concórdia, localizada em Guapimirim, é um verdadeiro refúgio natural. A trilha até a cachoeira é moderadamente fácil, 
+                percorrendo cerca de 1,5 km (ida e volta) por uma mata preservada da Mata Atlântica.
+                Ao chegar, os visitantes encontram uma queda d'água majestosa, ideal para banho e relaxamento em meio à natureza. A atmosfera tranquila e a beleza natural da Cachoeira da Concórdia a tornam um destino popular para quem busca escapar do ritmo urbano e renovar as energias em um cenário deslumbrante.</p>
+            </div>
+            
+            <div class="button col-md-12 text-center">
+                <a href="https://www.youtube.com/watch?v=p0z39RzdvRA" class="btn-custom" target="_blank">Assistir Vídeo</a>
+            </div>
         </div>
+        
 
     
+        <div class="quadro col-md-6" style="order:2;">
+            <h3 class="titulo__imagens col-md-12"><span>Cachoeira Vale da Lua</span></h3><br>
+            <div class="img"><img class="imagens__trilha col-md-11" src="images/02 -valedalua.jpg" alt="Vale da Lua"></div>
+            <div class="title col-md-12">
+                <p class="texto__trilhas">A Cachoeira Vale da Lua em Guapimirim é um tesouro escondido conhecido por sua beleza singular.
+                que proporciona uma experiência imersiva na natureza.
+                A trilha até o Vale da Lua tem cerca de 3 km (ida e volta) e é considerada de dificuldade moderada, com trechos que atravessam
+                riachos e matas exuberantes. Ao chegar, os visitantes são recebidos por uma série de pequenas quedas d'água que formam piscinas
+                naturais e um cenário de rochas que lembram a superfície lunar, daí o nome.</p>
+            </div>
+            
+            <div class="button col-md-12 text-center">
+                <a href="https://www.youtube.com/watch?v=_AnL45A0ce8" class="btn-custom" target="_blank">Assistir Vídeo</a>
+            </div>
+        </div>
+        
+
+
  
-        <div class="quadro" style="order:2;">
-        <h3 class="titulo__imagens">Cachoeira Vale da Lua</h3>
-        <img class="imagens__trilha" src="images/02 -valedalua.jpg" alt="Vale da Lua">
-
-        <p class="texto__trilhas">A Cachoeira Vale da Lua em Guapimirim, é um tesouro escondido conhecido por sua beleza singular. Localizada em uma área de Mata Atlântica preservada, a cachoeira é acessível por uma trilha 
-            que proporciona uma experiência imersiva na natureza.
-
-            A trilha até o Vale da Lua tem cerca de 3 km (ida e volta) e é considerada de dificuldade moderada, com trechos que atravessam
-            riachos e matas exuberantes. Ao chegar, os visitantes são recebidos por uma série de pequenas quedas d'água que formam piscinas
-            naturais e um cenário de rochas que lembram a superfície lunar, daí o nome.</p>
-    </div>
-
-
- 
-        <div class="quadro" style="order:3;">
-        <h3 class="titulo__imagens">Cachoeira Pegada do Gigante</h3>
-        <img class="imagens__trilha" src="images/02 - pegadadoGigante.webp" alt="Pegada do Gigante">
-   
+        <div class="quadro col-md-6" style="order:3;">
+        <h3 class="titulo__imagens col-md-12"><span>Cachoeira Pegada do Gigante</span></h3>
+        <img class="imagens__trilha col-md-11" src="images/02 - pegadadoGigante.webp" alt="Pegada do Gigante">
+        <div class="title col-md-12">
          <p class="texto__trilhas"> Essa cachoeira é conhecida pela sua imponência e pela beleza cênica que oferece aos visitantes.
             A trilha para a Cachoeira Pegada do Gigante geralmente tem cerca de 3 km de extensão (ida e volta), passando por uma área de Mata Atlântica preservada. O percurso pode incluir 
             trechos moderadamente íngremes e algumas partes com obstáculos naturais, o que a torna uma caminhada desafiadora, mas acessível para quem está
             acostumado a trilhas.</p>
+        </div>
+        <div class="button col-md-12 text-center">
+            <a href="https://www.youtube.com/watch?v=Fs-n1P8gL6o" class="btn-custom" target="_blank">Assistir Vídeo</a>
+        </div>
     </div>
 
 
-    <div class="container">
-        <div class="quadro" style="order:4;">
-         <h3 class="titulo__imagens">Cachoeira Véu da Noiva</h3>
-        <img class="imagens__trilha" src="images/02 - veuDaNoiva.jpg" alt="Véu da Noiva">
-           
-        <p class="texto__trilhas">O Véu da Noiva é uma famosa cachoeira localizada na cidade do Rio de Janeiro, mais especificamente no Parque Nacional
+
+        <div class="quadro col-md-6" style="order:4;">
+        <h3 class="titulo__imagens col-md-12"> <span>Cachoeira Véu da Noiva</span></h3>
+         <div class="img"><img class="imagens__trilha col-md-11" src="images/02 - veuDaNoiva.jpg" alt="Véu da Noiva"></div>
+        <div class="title col-md-12">
+        <p class="texto__trilhas ">O Véu da Noiva é uma famosa cachoeira localizada  no Parque Nacional
             da Tijuca. Esta queda d'água espetacular é uma das atrações naturais mais conhecidas e visitadas da região.
-            Para chegar ao Véu da Noiva, os visitantes podem seguir por uma trilha que começa na Estrada das Paineiras, próximo ao Corcovado. A trilha é relativamente curta, cerca de 1 km de extensão (ida e volta), 
-            e proporciona uma caminhada agradável pela mata atlântica.
+            Para chegar ao Véu da Noiva, os visitantes podem seguir por uma trilha que começa na Estrada das Paineiras, próximo ao Corcovado. 
             A cachoeira Véu da Noiva se destaca pela sua queda d'água impressionante, que desce em meio a um cenário de vegetação exuberante e rochas. 
-            O nome "Véu da Noiva" se deve à aparência da água descendo pelas pedras, criando um véu semelhante ao usado por noivas.
         </p>
-    </div> 
+         </div>
+
+        <div class="button col-md-12 text-center">
+            <a href="https://www.youtube.com/watch?v=Xz93sYwXjLw" class="btn-custom" target="_blank">Assistir Vídeo</a>
+        </div>
+     </div>
+
     
-
-   
-        <div class="quadro" style="order:5;">
-        <h3 class="titulo__imagens">Cachoeira do Poção</h3>
-        <img class="imagens__trilha" src="images/02 - pocao.jpg" alt="Cachoeira do Poção">
-          
-        <p class="texto__trilhas">A Cachoeira do Poção é uma bela atração natural localizada no município de Mendes, no estado do Rio de Janeiro. É um destino popular entre os moradores locais e visitantes que buscam um lugar tranquilo para relaxar e se refrescar em meio à natureza.
-
-            A trilha até a Cachoeira do Poção é geralmente acessível, com cerca de 1,5 km de extensão (ida e volta) através de uma trilha bem marcada na mata atlântica. O percurso pode incluir algumas subidas e descidas moderadas, mas é relativamente fácil de ser percorrido.
-            Ao chegar na cachoeira, os visitantes encontram uma queda d'água que forma uma piscina natural, conhecida como "poção", ideal para banhos e mergulhos em águas cristalinas. A área ao redor da cachoeira também oferece espaços para descanso e piquenique, permitindo que os visitantes
-            desfrutem de momentos tranquilos em meio ao som das águas e o verde da vegetação ao redor</p>
-    </div>         
-
-
- 
-        <h3 class="titulo__imagens">Cachoeira Janela do Céu </h3>
-        <div class="quadro" style="order:5;">
-        <img class="imagens__trilha" src="images/02 - janeladoceu.jpg" alt="Janela do Ceu">
-        
+        <div class="quadro col-md-6" style="order:5;">
+        <h3 class="titulo__imagens col-md-12"><span>Cachoeira Janela do Céu </span></h3>
+         <div class="img"> <img class="imagens__trilha col-md-11" src="images/02 - janeladoceu.jpg" alt="Janela do Ceu"></div>
+         <div class="title col-md-12">
         <p class="texto__trilhas">O Parque Natural Municipal de Nova Iguaçu, na Baixada Fluminense, guarda uma surpresa: a Janela do Céu, uma queda de água de 82 metros que
              cai de uma pequena abertura na densa floresta.
             A cachoeira é formada pelo Rio Dona Eugênia, que vem do alto do Maciço do Gericinó-Medanha e cruza o parque.
             Os cerca de 8km de trilhas sinalizadas levam seus frequentadores à belas cachoeiras e poços dágua (sendo 11 liberadas ao banho) entre a Pedra da Contenda e a Serra do Vulcão. E entre uma trilha e outra é possível 
             conhecer parte da história de Nova Iguaçu, como a sede da Fazenda Dona Eugêni</p>
     </div> 
+    <div class="button col-md-12 text-center">
+        <a href="https://www.youtube.com/watch?v=-F4jdWyyDvQ" class="btn-custom" target="_blank">Assistir Vídeo</a>
+    </div>
+</div>
+
 
    
-        <div class="quadro" style="order:6;">
-        <h3 class="titulo__imagens">Cachoeira das Almas</h3>
-        <img class="imagens__trilha" src="images/02 - cachoeiradasAlmas.jpg" alt="Cachoeira das Almas">
-    
-        <p class="texto__trilhas">A  Cachoeira das Almas na Tijuca é uma das atrações naturais mais encantadoras localizadas dentro do Parque Nacional da Tijuca. É conhecida pela sua beleza serena e pela atmosfera tranquila que proporciona aos visitantes.
+        <div class="quadro col-md-6" style="order:6;">
+        <h3 class="titulo__imagens col-md-12"><span> Cachoeira das Almas</span></h3>
+        <div class="img"><img class="imagens__trilha col-md-11" src="images/02 - cachoeiradasAlmas.jpg" alt="Cachoeira das Almas"></div>
+        <div class="title col-md-12">
+        <p class="texto__trilhas">
             Para alcançar a Cachoeira das Almas, os visitantes geralmente seguem por uma trilha que parte da Estrada da Cascatinha, dentro do próprio parque. A trilha é relativamente curta, com cerca de 1,5 km de extensão (ida e volta), e percorre uma vegetação exuberante de Mata Atlântica.
-            Ao chegar na cachoeira, os visitantes são recebidos por uma queda d'água que forma uma pequena piscina natural, ideal para um banho refrescante em águas cristalinas. A atmosfera tranquila e o som relaxante das águas tornam a Cachoeira das Almas um refúgio perfeito para aqueles que desejam escapar 
-            um pouco da agitação da cidade e conectar-se com a natureza.</p>
+            Ao chegar na cachoeira, os visitantes são recebidos por uma queda d'água que forma uma pequena piscina natural, ideal para um banho refrescante em águas cristalinas. Ideal para se desconectar  um pouco da agitação da cidade e conectar-se com a natureza. Localizada na Floresta da Tijuca</p>
     </div> 
+    <div class="button col-md-12 text-center">
+        <a href="https://www.youtube.com/watch?v=wb1ABHVDF4A" class="btn-custom" target="_blank">Assistir Vídeo</a>
+    </div>
+    </div>
 
 
    
-        <div class="quadro" style="order:7;">
-        <h3 class="titulo__imagens">Cachoeira do Horto</h3>
-        <img class="imagens__trilha" src="images/02-horto.jpeg" alt="Cachoeira do Horto>
-
+        <div class="quadro col-md-6" style="order:7;">
+        <h3 class="titulo__imagens col-md-12"><span>Cachoeira do Horto</span></h3>
+        <div class="img"> <img class="imagens__trilha col-md-11" src="images/02-horto.jpeg" alt="Cachoeira das Almas"></div>
+        <div class="title col-md-12">
         <p class="texto__trilhas">A Cachoeira do Horto é uma das cachoeiras mais conhecidas e acessíveis localizadas no Rio de Janeiro, dentro do bairro do Horto, próximo ao Jardim Botânico. Esta cachoeira é um refúgio verdejante dentro da cidade, proporcionando aos visitantes uma experiência natural única.
             Para chegar à Cachoeira do Horto, os visitantes geralmente seguem por uma trilha curta e bem marcada, com aproximadamente 1 km de extensão (ida e volta). A trilha é de nível fácil a moderado, ideal para pessoas de todas as idades e condicionamentos físicos.
            Ao chegar na cachoeira, os visitantes encontram uma bela queda d'água cercada por vegetação exuberante da Mata Atlântica. A área ao redor da cachoeira oferece espaços para descanso e contemplação, além de piscinas naturais onde é possível mergulhar e se refrescar em águas cristalinas.
         </p>
     </div> 
+    <div class="button col-md-12 text-center">
+        <a href="https://www.youtube.com/watch?v=vIkKv5SrTAk" class="btn-custom"  target="_blank">Assistir Vídeo</a>
     </div>
+    </div><br><br><br><br>
 
-   
 </body>
 </html>
