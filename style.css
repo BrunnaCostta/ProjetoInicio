@@ -278,3 +278,152 @@ body {
     margin-top: 20px;
 }
 
+
+/* Estilo geral */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header.topo {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+}
+
+header .titulo {
+    margin: 0;
+    font-size: 24px; /* Tamanho padrão para desktop */
+}
+
+nav.menu {
+    background-color: #f8f9fa;
+    padding: 10px 0;
+}
+
+nav.menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav.menu li {
+    margin: 0 10px;
+}
+
+nav.menu a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+nav.menu a:hover {
+    text-decoration: underline;
+}
+
+main.container {
+    padding: 20px;
+}
+
+h1.frase__apresentacao {
+    text-align: center;
+    font-size: 28px; /* Tamanho padrão para desktop */
+}
+
+.aventura {
+    margin-bottom: 30px;
+}
+
+.aventura img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.texto__trilhas {
+    margin-top: 10px;
+    text-align: justify;
+}
+
+.btn-custom {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.btn-custom:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para o rodapé */
+footer.footer {
+    background-color: #f8f9fa;
+    padding: 20px;
+    color: #6c757d;
+    text-align: center;
+}
+
+footer.footer p {
+    margin: 0;
+}
+
+ /*responsividade */
+
+
+@media (max-width: 768px) {
+    header .titulo {
+        font-size: 20px; 
+    }
+
+    nav.menu ul {
+        flex-direction: column; 
+    }
+
+    nav.menu li {
+        margin: 5px 0;
+    }
+
+    h1.frase__apresentacao {
+        font-size: 24px; 
+    }
+
+    .btn-custom {
+        font-size: 14px; 
+        padding: 8px 16px; 
+    }
+}
+
+
+@media (max-width: 576px) {
+    header .titulo {
+        font-size: 18px; 
+    }
+
+    nav.menu ul {
+        flex-direction: column;
+        align-items: center; 
+    }
+
+    nav.menu li {
+        margin: 5px 0;
+    }
+
+    h1.frase__apresentacao {
+        font-size: 20px; 
+    }
+
+    .btn-custom {
+        font-size: 12px; 
+        padding: 6px 12px; 
+    }
+}
